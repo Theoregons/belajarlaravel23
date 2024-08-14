@@ -353,9 +353,9 @@
 
                 </nav>
                 <!-- End of Topbar -->
-
                 <!-- Begin Page Content -->
                 <div class="container-fluid text-dark">
+                    @include('flashmessage')
                     @yield('main')
                 </div>
                 <!-- /.container-fluid -->

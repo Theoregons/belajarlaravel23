@@ -15,3 +15,6 @@
 
     <img src="{{ asset('img/react.jpg') }}" width="300" alt="">
 @endsection
+@section('js')
+
+@endsection
